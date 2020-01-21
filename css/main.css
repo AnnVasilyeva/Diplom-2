@@ -37,9 +37,8 @@
   }
 
 body {
-/* 	не забудь убрать ширину */
-  min-width: 320px;
-  font-size: 15px;
+
+  
   font-family: Open Sans, sans-serif;
   
 }
@@ -171,16 +170,16 @@ body {
 .athlets, .players {
 	position: relative;
 }
-.footballer-image {
+
+
+.athlet-image {
     position: absolute;
     z-index: 2;
     top: 80px;
-    left: 53px;
-   
-       
+    left: 53px;     
     }
     
-.basketballer-image {
+.player-image {
 	position: absolute;
     z-index: 2;
     top: 80px;
@@ -305,7 +304,7 @@ body {
 	color: #fff;
 	background-color: #5e42b0;
 	padding: 25px;
-	position: absolute;
+	position: relative;
 	top: -30px;
 	box-sizing: border-box;
 	margin-left: 20px;
@@ -471,19 +470,18 @@ body {
 	}
 	
 	.athlets .section-title {
-		padding-left: 293px;
+		padding-left: 40%;
 		padding-top: 82px;
 
 	}
 	
 
-	.footballer-image {
-		left: -170px;
-		top: 140px;	
+	.athlet-image {
 	}
 		
-	.athlets-list, .players-list {
+	.athlets-list {
 		padding-top: 0;
+		
 	}
 		
 	.athlet-item {
@@ -497,14 +495,13 @@ body {
 		background-color: #fff;
 	}
 	
-	.basketballer-image {
-		right: 0;
-		top: 42px;
-	}
+	
 	
 	.players .section-title {
 		padding-left: 32px;
 		padding-top: 82px;
+		
+
 	}
 	
 	
@@ -515,6 +512,7 @@ body {
 	
 	.players-list {
 		margin-top: 40px;
+		padding-top: 0;
 	}
 		
 	.title-number, .title-number_growth {
@@ -551,6 +549,7 @@ body {
 	.content-text {
 		font-size: 24px;
 		line-height: 28px;
+		
 	}
 	
 	.footer {
@@ -640,8 +639,10 @@ body {
 	}
 	
 	
+	
 	.athlet-item {
 		padding-left: 50%;
+
 	}
 
 		 
@@ -655,10 +656,7 @@ body {
 	
     }
 	
-	.basketballer-image {
-		right: 0;
-		top: 42px;
-	}
+	
 	
 	
 	
@@ -676,9 +674,12 @@ body {
 		font-size: 36px;
 	}
 	
-	.item-text {
+	.item-text, .item-last_text {
 		font-size: 20px;
+		width: 80%;
 	}
+	
+	
 	
 	.active-card, .work-card {
 		display: flex;
@@ -690,17 +691,18 @@ body {
 		
 	}
 	.active-content, .work-content {
-		align-self: center;
 		width: 50%;
-		
+		padding-bottom: 0;
+	
 	}	
+	
 	.content-number {
+		margin: 0;
 		font-size: 24px;
 		padding: 50px 70px;
 		left: -100px;
 		top: 78px;
 	}
-	
 	
 			
 	.content-number::after {
@@ -711,24 +713,34 @@ body {
 	}		
 	
 	.card:nth-child(even) .content-number {
-/* 		left: 700px; */
-    	}
-	
-	
+        float: right;
+        left: 84px;
+        top: 0;
+        
+    }
+	.contact-image {	
+		width: 50%;
+	}
+		
+	.contact-content {
+		width: 50%;
+		padding-bottom: 0;
+	}
 	.content-title {
 		font-size: 80px;
+		line-height: 90px;
 		padding-left: 127px;
+		margin: 0;
 	}
 	.content-text {
 		font-size: 24px;
 		line-height: 28px;
-		padding-top: 107px;
 		padding-left: 127px;
 	}
 	
 	.card:nth-child(even) .content-title {
 		padding-left: 0;
-		padding-right: 130px;
+/* 		padding-right: 130px; */
 	}
 	
 	.card:nth-child(even) .content-text {
@@ -739,14 +751,11 @@ body {
 	.contact-card {
 		display: flex;
 		flex-direction: row-reverse;
+        width: 100%;
 	}
-	.contact-image {
-		width: 50%;
-	}	
-	.contact-content {
-		align-self: center;
-		width: 50%;
-	}
+	
+	
+	
 	
 	.footer {
 		background-image: url(/images/game_1920.jpg);
@@ -785,7 +794,10 @@ body {
 		
 }
 
-
+@media (min-width: 1920px) {
+		
+	
+}
 
 
 

@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>surface</title>
     <link href="css/main.css" rel="stylesheet"> 
 </head>
@@ -49,13 +50,17 @@
  <main class="main">
 	
 	 <section class="athlets">
-		 <h2 class="section-title">Athlets</h2>
-		 <picture>
-		 <source media="(min-width: 641px)" srcset="images/footballer_497.png">
+		 	<div class="athlet-image">
+		 		 <picture>
+		 <source media="(min-width: 641px) and (max-width: 960px)" srcset="images/footballer_497.png">
 		 <source media="(min-width: 961px)" srcset="images/footballer_566.png">
 		 <img class="footballer-image" src="images/footballer_192.png" alt="футболист">
-		 </picture>
-		 <ul class="athlets-list">
+		         </picture>
+		 	</div>
+		 	<div class="athlet-content">
+		      <h2 class="section-title">Athlets</h2>
+
+		      <ul class="athlets-list">
 			 <li class="athlet-item">
 			  <div class="item-header">
 				<span class="title-number">01</span>
@@ -63,6 +68,7 @@
 			  </div>
 			 <p class="item-text">Connect with coaches directly, you can ping coaches to view profile.</p>
 			 </li>
+			 
 			 <li class="athlet-item">
 			 <div class="item-header">
 				<span class="title-number">02</span>
@@ -70,6 +76,7 @@
 			 </div>
 			 <p class="item-text">Work with other student athletes to  increase visability. When you share and like other players videos it will increase your visability as a player. This is the team work aspect to Surface 1.</p>
 			 </li>
+			  
 			  <li class="athlet-item">
 			  <div class="item-header">
 				<span class="title-number_growth">03</span>
@@ -77,16 +84,23 @@
 			  </div>
 			 <p class="item-last_text">Resources and tools for you to get better as a student Athelte. Access to training classes, tutor sessions, etc</p>
 			 </li>
-		 </ul>
+		   </ul>
+		   
+		  </div>
 	 </section>
+	 
 	 <section class="players">
-		 <h2 class="section-title">Players</h2>
+		<div class="player-image">
 		 <picture>
-		 <source media="(min-width: 641px)" srcset="images/basketballer_436.png">
+		 <source media="(min-width: 641px) and (max-width: 960px)" srcset="images/basketballer_436.png">
 		 <source media="(min-width: 961px)" srcset="images/basketballer_991.png">
 		 <img class="basketballer-image" src="images/basketballer_302.png" alt="баскетболист">
 		 </picture>
-		 <ul class="players-list">
+		</div>
+		
+		<div class="player-content">
+		    <h2 class="section-title">Players</h2>
+		    <ul class="players-list">
 			 <li class="player-item">
 			 <div class="item-header">
 				<span class="title-number">01</span>
@@ -108,13 +122,14 @@
 			  </div>
 			 <p class="item-last_text">Save your time, recruit proper athlets for your team.</p>
 			 </li>
-		 </ul>
+		    </ul>
+		 </div>
 	 </section>
 	 
 	 <section class="active-card card">
 		 <div class="active-image">
 			<picture>
-		     <source media="(min-width: 641px)" srcset="images/be-active_960.jpg">
+		     <source media="(min-width: 641px) and (max-width: 960px)" srcset="images/be-active_960.jpg">
 		     <source media="(min-width: 961px)" srcset="images/be-active_1024.jpg">
 			 <img class="be-active" src="images/be-active_640.jpg" alt="человек с телефоном">
 			</picture>	
@@ -130,7 +145,7 @@
 	 <section class="contact-card card">
 		 <div class="contact-image">
 			 <picture>
-		     <source media="(min-width: 641px)" srcset="images/find-contact_960.jpg">
+		     <source media="(min-width: 641px) and (max-width: 960px)" srcset="images/find-contact_960.jpg">
 		     <source media="(min-width: 961px)" srcset="images/find-contact_1024.jpg">
 			 <img class="contact" src="images/find-contact_640.jpg" alt="тренер в наушниках">
 			 </picture>
@@ -145,7 +160,7 @@
 	 <section class="work-card card">
 		 <div class="work-image">
 			 <picture>
-		     <source media="(min-width: 641px)" srcset="images/work-it_960.jpg">
+		     <source media="(min-width: 641px) and (max-width: 960px)" srcset="images/work-it_960.jpg">
 		     <source media="(min-width: 961px)" srcset="images/work-it_1024.jpg">
 			 <img class="work-it" src="images/work-it_640.jpg" alt="команда футболистов">
 			 </picture>
