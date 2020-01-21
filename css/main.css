@@ -1,37 +1,37 @@
 @font-face {
   font-family: Open Sans, sans-serif;
-  src: url(/fonts/OpenSans-Bold.ttf);
+  src: url(../fonts/OpenSans-Bold.ttf);
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Open Sans, sans-serif;
-  src: url(/fonts/OpenSans-Bold.woff); 
+  src: url(../fonts/OpenSans-Bold.woff); 
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: Open Sans, sans-serif;
-  src: url(/fonts/OpenSans-Bold.woff2);
+  src: url(../fonts/OpenSans-Bold.woff2);
   font-weight: 700;
   font-style: normal;
   }
   
 @font-face {
   font-family: Open Sans, sans-serif;
-  src: url(/fonts/OpenSans-Regular.ttf);
+  src: url(../fonts/OpenSans-Regular.ttf);
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: Open Sans, sans-serif;
-  src: url(/fonts/OpenSans-Regular.woff); 
+  src: url(../fonts/OpenSans-Regular.woff); 
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: Open Sans, sans-serif;
-  src: url(/fonts/OpenSans-Regular.woff2);
+  src: url(../fonts/OpenSans-Regular.woff2);
   font-weight: 400;
   font-style: normal;
   }
@@ -44,7 +44,7 @@ body {
 }
 .header {
 	width: 100%;
-	background-image: url(/images/football_767.jpg);
+	background-image: url(../images/football_767.jpg);
 	background-color: #000;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -345,7 +345,7 @@ body {
 
  .footer {
 	width: 100%;
-	background-image: url(/images/game_767.jpg);
+	background-image: url(../images/game_767.jpg);
 	background-color: #000;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -415,7 +415,7 @@ body {
 @media (min-width: 641px) and (max-width: 960px) {
 	
 	.header {
-		background-image: url(/images/football_1280.jpg);
+		background-image: url(../images/football_1280.jpg);
 	}
 		
 	.logo-header, .footer_logo-text {
@@ -553,7 +553,7 @@ body {
 	}
 	
 	.footer {
-		background-image: url(/images/game_1280.jpg);
+		background-image: url(../images/game_1280.jpg);
 	}
 	
 	.logo-footer {
@@ -577,7 +577,7 @@ body {
 @media (min-width: 961px) {
 	
 	.header {
-		background-image: url(/images/football_1920.jpg);
+		background-image: url(../images/football_1920.jpg);
 	}
 	
 	.logo-header, .footer_logo-text {
@@ -758,7 +758,7 @@ body {
 	
 	
 	.footer {
-		background-image: url(/images/game_1920.jpg);
+		background-image: url(../images/game_1920.jpg);
 	}
 	
 	.flexbox-footer {
