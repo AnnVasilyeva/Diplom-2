@@ -50,7 +50,7 @@ body {
 	background-size: cover;
 	background-position: center center;
 	position: relative;
-	padding-bottom: 84px;
+	padding-bottom: 26.2vw;
 	
 }
 .header::after {
@@ -67,7 +67,7 @@ body {
  
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 6.2vw;
   box-sizing: border-box;
   position: relative;
   z-index: 2;
@@ -77,26 +77,26 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 133px;
-	height: 36px;
-	padding-top: 30px;
+	width: 41.6vw;
+	height: 11.2vw;
+	padding-top: 9.4vw;
 		
 	
 }
 .main-title {
 	color: #fff;
-	font-size: 1.9em;
+	font-size: 8.7vw;
 	text-transform: uppercase;
 	font-family: sans-serif;
 	font-weight: 700;
-	margin: 135px 0 30px;	
+	margin: 42.2vw 0 9.4vw;	
 }
 .second-title {
 	color: #fff;
-	font-size: 1.9em;
+	font-size: 8.7vw;
 	text-transform: uppercase;
 	font-weight: 700;
-	margin-left: 45px;
+	margin-left: 14vw;
 	
 	}
 
@@ -108,33 +108,33 @@ body {
 		
 }
 .header .button-list {
-	margin-top: 87px;
+	margin-top: 27.2vw;
 }
 .button-apple, .button-google {
   display: flex;	
   background-color: #5e42b0;
-  padding-top: 5px;
-  padding-bottom: 5px; 
-  border-radius: 17px;
+  padding-top: 1.6vw;
+  padding-bottom: 1.6vw; 
+  border-radius: 5.3vw;
   justify-content: center;
   
 }
 
 .button-apple {
-	margin-bottom: 15px;
+	margin-bottom: 4.7vw;
 		
 }
 
 .button-link_apple, .button-link_google {
-	width: 20px;
-	height: 24px;
-	margin-right: 9px;
+	width: 6.2vw;
+	height: 7.5vw;
+	margin-right: 2.8vw;
 	cursor: pointer;
 }
 
 .button-text, .button-google {
  
-  font-size: 8px;
+  font-size: 2.5vw;
   color: #fff;
   text-transform: uppercase;  
     
@@ -149,21 +149,22 @@ body {
 
 .button-label_app, .button-label_google {
 	font-weight: 700;
-	font-size: 8px;
+	font-size: 2.5vw;
     color: #fff;
     text-transform: uppercase;  
-    padding-top: 4px;
+    padding-top: 1.2vw;
   	
 }
 
 	
 .section-title {
 	
-	font-size: 50px;
+	font-size: 15.6vw;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #e7e7e7;
-	padding-top: 20px;
+	padding-top: 6.2vw;
+	padding-left: 6.2vw;
 	margin: 0;
 	
 }
@@ -175,37 +176,33 @@ body {
 .athlet-image {
     position: absolute;
     z-index: 2;
-    top: 80px;
-    left: 53px;     
+    top: 25vw;
+    left: 16.5vw;     
     }
     
+.footballer-image {
+	width: 60vw;
+}   
 .player-image {
 	position: absolute;
     z-index: 2;
-    top: 80px;
+    top: 25vw;
 }   	
 
-
+.basketballer-image {
+	width: 94.3vw;
+}
  
 .athlets-list, .players-list {
 	
-	padding-top: 226px; 
-/* 	margin: 0; */
-	
+	padding-top: 70.6vw; 
 	
 }
 
 .athlet-item, .player-item {
-	padding: 55px 20px;
-}
-.athlet-item:first-child {
-	padding-top: 80px;
+	padding: 17.2vw 6.2vw;
 }
 
-
-
-
-/* Проверка */
 
 .background-white {
 	background-color: #fff;
@@ -243,26 +240,26 @@ body {
 
 .title-number {
 	color: #000;
-	font-size: 14px;
+	font-size: 4.4vw;
 	font-weight: 700;
 	position: relative;
-	margin-right: 10px;
+	margin-right: 3.1vw;
 }
 .title-number::after {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 4px;
+  width: 4.7vw;
+  height: 1.2vw;
   background-color: #5e42b0;
-  top: 18px;
+  top: 5.6vw;
   left: 0;
   border-radius: 1.5px;
 }
 
 .title-number_growth {
 	color: #000;
-	margin-right: 10px;
-	font-size: 14px;
+	margin-right: 3.1vw;
+	font-size: 4.4vw;
 	font-weight: 700;
 	position: relative;
 }
@@ -273,10 +270,10 @@ body {
 .title-number_growth::after {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 4px;
+  width: 4.7vw;
+  height: 1.2vw;
   background-color: #fff;
-  top: 18px;
+  top: 5.6vw;
   left: 0;
   border-radius: 1.5px;
 }
@@ -290,15 +287,15 @@ body {
 }
 .item-text {
 	letter-spacing: 1px;
-	line-height: 20px;
-	font-size: 15px;
+	line-height: 6.2vw;
+	font-size: 4.7vw;
 	font-weight: 400;
 	color: #000;
 }
  
 .item-last_text {
 	
-	font-size: 15px;
+	font-size: 4.7vw;
 	font-weight: 400;
 	color: #fff;
 }
@@ -310,54 +307,57 @@ body {
 	width: 100%;
 	}
 .active-content, .contact-content {
-	padding-bottom: 76px;
+	padding-bottom: 23.4vw;
+	padding-left: 6.2vw;
 }
 .work-content {
-	padding-bottom: 66px;
+	padding-bottom: 20.6vw;
+	padding-left: 6.2vw;
+
 }
 
 .content-number {
 
-	font-size: 14px;
+	font-size: 4.4vw;
 	font-weight: 700;
 	color: #fff;
 	background-color: #5e42b0;
-	padding: 25px;
+	padding: 7.8vw;
 	position: relative;
-	top: -30px;
+	top: -9.4vw;
 	box-sizing: border-box;
-	margin-left: 20px;
+	margin-left: 6.2vw;
 	
 	}
 
 .content-number::after {
   content: "";
   position: absolute;
-  width: 15px;
-  height: 4px;
+  width: 4.7vw;
+  height: 1.2vw;
   background-color: #8f7bc8;
-  top: 43px;
-  left: 25px;
+  top: 13.4vw;
+  left: 7.8vw;
   border-radius: 1.5px;
   box-sizing: border-box;
   
  }
  
 .content-title {
-	font-size: 28px;
+	font-size: 8.7vw;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #e7e7e7;
-	margin: 20px 0 0;
+	margin: 6.2vw 0 0;
 }
 .content-text {
-	font-size: 16px;
+	font-size: 5vw;
 	font-weight: 400;
-	line-height: 20px;
-	letter-spacing: 2px;
+	line-height: 6.2vw;
+	letter-spacing: 0.6vw;
 	color: #000;
 	margin: 0;
-	padding-top: 24px;
+	padding-top: 7.5vw;
 	}
 
 
@@ -370,8 +370,8 @@ body {
 	background-size: cover;
 	background-position: center center;	
 	position: relative;
-	padding-top: 98px;
-	padding-bottom: 9px;
+	padding-top: 30.6vw;
+	padding-bottom: 2.8vw;
 	
 	
  }
@@ -387,12 +387,12 @@ body {
  }
 
 .logo-footer {
-	width: 72px;
-	height: 74px;
+	width: 22.5vw;
+	height: 23.1vw;
 	background-color: #53399f;
 	border-radius: 20px;
-	padding: 11px 8px;
-	margin-bottom: 58px;
+	padding: 3.4vw 2.5vw;
+	margin-bottom: 18.1vw;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -400,21 +400,21 @@ body {
 }
 
 .footer-title {
-	font-size: 32px;
+	font-size: 10vw;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #fff;
 	text-align: center;
-	margin: 55px 0 11px;
+	margin: 17.2vw 0 3.4vw;
 	}
 
 
 .footer-text {
-	font-size: 14px;
+	font-size: 4.4vw;
 	font-weight: 400;
 	text-transform: uppercase;
 	color: #9b8ec1;
-	margin: 0 0 76px;
+	margin: 0 0 23.4vw;
 	text-align: center;
 	}
 
@@ -422,9 +422,9 @@ body {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 133px;
-	height: 36px;
-	padding-top: 80px;
+	width: 41.6vw;
+	height: 11.2vw;
+	padding-top: 25vw;
 
 }
 
@@ -438,8 +438,8 @@ body {
 	}
 		
 	.logo-header, .footer_logo-text {
-		width: 205px;
-		height: 56px;
+		width: 26.7vw;
+		height: 7.3vw;
 	}
 	
 		
@@ -450,37 +450,37 @@ body {
 	}
 	.button-apple {
 		
-		margin: 0 32px 0 0;		
+		margin: 0 4.2vw 0 0;		
 	}
 	
 	
 	.button-apple, .button-google {
-		width: 314px;
-		padding-top: 14px;
-		padding-bottom: 14px;
-		border-radius: 35px;
+		width: 40.9vw;
+		padding-top: 1.8vw;
+		padding-bottom: 1.8vw;
+		border-radius: 4.5vw;
 	}
 
     .button-text, .button-label_app, .button-label_google {
-		font-size: 14px;
+		font-size: 1.8vw;
 	}	
 	
 	.button-link_apple {
-		width: 36px;
-		height: 42px;
-		margin-right: 23px;
+		width: 4.7vw;
+		height: 5.5vw;
+		margin-right: 2.9vw;
 		
 	}
 	
 	.button-link_google {
-		width: 41px;
-		height: 45px;
-		margin-right: 23px;
+		width: 5.3vw;
+		height: 5.8vw;
+		margin-right: 2.9vw;
 	} 
 	
 	
 	.main-title, .second-title {
-		font-size: 64px;
+		font-size: 8.2vw;
 			}
 	.second-title {
 		display: block;
@@ -489,20 +489,23 @@ body {
 	}		
 		
 	.section-title {
-		font-size: 80px;
+		font-size: 10.4vw;
 	}
 	
 	.athlets .section-title {
 		padding-left: 40%;
-		padding-top: 82px;
+		padding-top: 10.7vw;
 
 	}
 	
 
 	.athlet-image {
-		left: -170px;
-		top: 140px;
+		left: -22.1vw;
+		top: 18.2vw;
        
+	}
+	.footballer-image {
+		width: 64.7vw;
 	}
 		
 	.athlets-list {
@@ -512,69 +515,78 @@ body {
 		
 	.athlet-item {
 		padding-left: 40%;
-		padding-top: 40px;
-		padding-bottom: 38px;
+		padding-top: 5.2vw;
+		padding-bottom: 4.9vw;
 		
 	}
 	
 
 	
-	
-	
 	.players .section-title {
-		padding-left: 32px;
-		padding-top: 82px;
+		padding-left: 4.2vw;
+		padding-top: 10.7vw;
 		
 
 	}
 	
 	.player-image {
 		right: 0;
+		top: 12.2vw;
+
+	}
+	.basketballer-image {
+		width: 56.8vw;
+		
 	}
 	
 	.player-item {
-		padding: 40px 345px 38px 32px;
+		padding: 5.2vw 44.9vw 4.9vw 4.2vw;
 	}
 	
 	.players-list {
-		margin-top: 40px;
+		margin-top: 5.2vw;
 		padding-top: 0;
 	}
 		
 	.title-number, .title-number_growth {
-		font-size:  18px;
+		font-size: 2.3vw;
 	}
 	
 	.title-number::after, .title-number_growth::after {
-		width: 19px;
-		height: 5px;
-		top: 24px;
+		width: 2.5vw;
+		height: 0.6vw;
+		top: 3.1vw;
 	}
 
 	.item-title {
-		font-size: 32px;
+		font-size: 4.2vw;
 	}
 	
 	.item-text {
-		font-size: 16px;
+		font-size: 2.1vw;
+		line-height: 3.6vw;
+	}
+	.item-last_text {
+		font-size: 2.1vw;
+	    line-height: 3.6vw;
 	}
 	
 	.content-number {
-		font-size: 24px;
+		font-size: 3.1vw;
 	}
 	
 	.content-number::after {
-		width: 25px;
-		height: 5px;
-		top: 53px;
+		width: 3.2vw;
+		height: 0.6vw;
+		top: 6.9vw;
 	}
 	
 	.content-title {
-		font-size: 80px;
+		font-size: 10.4vw;
 	}
 	.content-text {
-		font-size: 24px;
-		line-height: 28px;
+		font-size: 3.1vw;
+		line-height: 3.6vw;
 		
 	}
 	
@@ -583,17 +595,17 @@ body {
 	}
 	
 	.logo-footer {
-		width: 130px;
-		height: 137px;
-		padding: 25px 13px;
+		width: 16.9vw;
+		height: 17.8vw;
+		padding: 3.2vw 1.7vw;
 		box-sizing: border-box;
 	}
 	.footer-title {
-		font-size: 80px;
+		font-size: 10.4vw;
 	}
 	
 	.footer-text {
-		font-size: 36px;
+		font-size: 4.7vw;
 	}
 	
 	
@@ -660,7 +672,7 @@ body {
 		width: 100%;
 	}
 	.section-title {
-     	font-size: 80px;
+     	font-size: 80px;;
      	padding-top: 117px;
      	padding-left: 13px;
 	}
@@ -670,7 +682,9 @@ body {
 		
 	}
 	
-	
+	.players .section-title {
+		padding-left: 5%;
+	}
 	
 	.athlet-item {
 		padding-left: 50%;
@@ -695,20 +709,22 @@ body {
 	
 	}
 	.footballer-image {
-		max-width: 100%;	
+		width: 566px;
+/* 		max-width: 100%; */	
 	}
 	
 	.player-image {
 	   width: 70%;
 	   right: 0;   
 	   top:0 ;
-	   padding-top: 25px;
+	   padding-top: 52px;
 	   padding-left: 120px;
 	   box-sizing: border-box;
 		}
 		
 	.basketballer-image {
-		max-width: 100%;
+		width: 991px;
+/* 		max-width: 100%; */
 			}
 	
 	.player-item {
@@ -721,7 +737,7 @@ body {
 	}
 	
 	.title-number::after, .title-number_growth::after {
-		width: 19px;
+		width: 18px;
 		height: 5px;
 		top: 24px;
 	}
@@ -731,7 +747,8 @@ body {
 	}
 	
 	.item-text, .item-last_text {
-		font-size: 20px;	
+		font-size: 20px;
+		line-height: 28px;	
 	}
 	
 	
@@ -810,7 +827,10 @@ body {
 	}
 	
 	
-	
+	.athlet-item, .player-item {
+         padding-top: 60px;
+         padding-bottom: 54px;
+    }
 	
 	.footer {
 		background-image: url(../images/game_1920.jpg);
