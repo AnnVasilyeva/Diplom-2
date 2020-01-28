@@ -710,7 +710,7 @@ body {
 	}
 	
 	.title {
-		margin: 15.2vw 0 0 10vw;
+		margin: 15.2vw 0 0 0;
 	}
 
 	.main-title, .second-title {
@@ -718,9 +718,12 @@ body {
 	
 	}
 	
+	.main-title {
+		margin-left: 10vw;
+	}
 	.second-title  {
 		display: block;
-		margin-left: 22vw;
+		margin-left: 31.8vw;
 
 	}
 	
@@ -919,8 +922,8 @@ body {
 	
 	
 	.content-text {
-		font-size: 1.2vw;
-		line-height: 1.4vw;
+		font-size: 24px;
+		line-height: 28px;
 		padding-top: 6.2vw;
 
 	}
@@ -933,7 +936,7 @@ body {
 	
 	.card:nth-child(even) .content-text {
 		padding-left: 0;
-		padding-right: 130px;
+/* 		padding-right: 130px; */
 		padding-top: 4vw;
 	}
 	
@@ -1024,6 +1027,16 @@ body {
 	.player-item {
     padding-right: 38%;
     }
+    
+    .content-text {
+		font-size: 2.2vw;
+		line-height: 3vw;
+		padding-top: 4.2vw;
+
+	}
+	
+		
+
 }
 
 
