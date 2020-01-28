@@ -1,45 +1,21 @@
 @font-face {
-  font-family: Open Sans, sans-serif;
-  src: url(../fonts/OpenSans-Bold.ttf);
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: Open Sans, sans-serif;
-  src: url(../fonts/OpenSans-Bold.woff); 
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: Open Sans, sans-serif;
+  font-family: Open Sans;
   src: url(../fonts/OpenSans-Bold.woff2);
   font-weight: 700;
   font-style: normal;
   }
   
+
 @font-face {
-  font-family: Open Sans, sans-serif;
-  src: url(../fonts/OpenSans-Regular.ttf);
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Open Sans, sans-serif;
-  src: url(../fonts/OpenSans-Regular.woff); 
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: Open Sans, sans-serif;
+  font-family: Open Sans;
   src: url(../fonts/OpenSans-Regular.woff2);
   font-weight: 400;
   font-style: normal;
   }
 
 body {
-
-  margin: 0;
-  font-family: Open Sans, sans-serif;
+    margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
   
 }
 .header {
@@ -79,25 +55,25 @@ body {
 	margin-right: auto;
 	width: 41.6vw;
 	height: 11.2vw;
-	padding-top: 9.4vw;
+	padding-top: 30px;
 		
+}
+
+.title {
+	margin: 130px 0 0 0;
 	
 }
-.main-title {
+.main-title, .second-title {
 	color: #fff;
 	font-size: 8.7vw;
 	text-transform: uppercase;
-	font-family: sans-serif;
 	font-weight: 700;
-	margin: 42.2vw 0 9.4vw;	
+	display: block;
+
 }
 .second-title {
-	color: #fff;
-	font-size: 8.7vw;
-	text-transform: uppercase;
-	font-weight: 700;
-	margin-left: 14vw;
-	
+	margin-left: 14.1vw;
+    
 	}
 
 
@@ -111,6 +87,7 @@ body {
 	margin-top: 27.2vw;
 }
 .button-apple, .button-google {
+  text-decoration: none;
   display: flex;	
   background-color: #5e42b0;
   padding-top: 1.6vw;
@@ -186,7 +163,7 @@ body {
 .player-image {
 	position: absolute;
     z-index: 2;
-    top: 25vw;
+    top: 28vw;
 }   	
 
 .basketballer-image {
@@ -205,7 +182,7 @@ body {
 
 
 .background-white {
-	background-color: #fff;
+	background-color: #fafafa;
 	width: 100%;
 }
 .background-pink {
@@ -218,11 +195,7 @@ body {
 	width: 100%;
 }
 
-.background-grey {
-	background-color: #f5f6f7;
-	width: 100%;
 
-}
 
 .background-black {
 	background-color: #0a0e34;
@@ -253,7 +226,7 @@ body {
   background-color: #5e42b0;
   top: 5.6vw;
   left: 0;
-  border-radius: 1.5px;
+  border-radius: 0.5vw;
 }
 
 .title-number_growth {
@@ -275,18 +248,18 @@ body {
   background-color: #fff;
   top: 5.6vw;
   left: 0;
-  border-radius: 1.5px;
+  border-radius: 0.5vw;
 }
 
 .item-title {
 	color: #c1c1c1;
 	text-transform: uppercase;	
 	font-weight: 700;
-	font-size: 1.53em;
+	font-size: 7.2vw;
 	margin: 0;
 }
 .item-text {
-	letter-spacing: 1px;
+
 	line-height: 6.2vw;
 	font-size: 4.7vw;
 	font-weight: 400;
@@ -303,32 +276,49 @@ body {
 
 /* секция с карточками */
 
+.active-card, .contact-card, .work-card {
+	position: relative;
+}
+
+
 .be-active, .contact, .work-it {
 	width: 100%;
+	display: block;
 	}
-.active-content, .contact-content {
-	padding-bottom: 23.4vw;
+	
+.active-content, .contact-content, .work-content {
+	padding-top: 10.3vw;
 	padding-left: 6.2vw;
-}
-.work-content {
-	padding-bottom: 20.6vw;
-	padding-left: 6.2vw;
-
+	padding-bottom: 21.9vw;
 }
 
-.content-number {
 
+.be-active_number, .contact_number {
+	display: inline-block;
+	position: absolute;
 	font-size: 4.4vw;
 	font-weight: 700;
 	color: #fff;
 	background-color: #5e42b0;
 	padding: 7.8vw;
-	position: relative;
-	top: -9.4vw;
+	top: 91.6vw;
 	box-sizing: border-box;
-	margin-left: 6.2vw;
-	
-	}
+	z-index: 2;
+}
+
+.work_number {
+	display: inline-block;
+	position: absolute;
+	font-size: 4.4vw;
+	font-weight: 700;
+	color: #fff;
+	background-color: #5e42b0;
+	padding: 7.8vw;
+	top: 91.6vw;
+	box-sizing: border-box;
+	z-index: 2;
+
+}
 
 .content-number::after {
   content: "";
@@ -348,13 +338,14 @@ body {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #e7e7e7;
-	margin: 6.2vw 0 0;
+	margin: 0;
+/* 	margin: 6.2vw 0 0; */
 }
 .content-text {
 	font-size: 5vw;
 	font-weight: 400;
 	line-height: 6.2vw;
-	letter-spacing: 0.6vw;
+
 	color: #000;
 	margin: 0;
 	padding-top: 7.5vw;
@@ -424,7 +415,7 @@ body {
 	margin-right: auto;
 	width: 41.6vw;
 	height: 11.2vw;
-	padding-top: 25vw;
+	margin-top: 25vw;
 
 }
 
@@ -435,6 +426,7 @@ body {
 	
 	.header {
 		background-image: url(../images/football_1280.jpg);
+		padding-bottom: 11.7vw;
 	}
 		
 	.logo-header, .footer_logo-text {
@@ -448,6 +440,10 @@ body {
 		justify-content: center;
 		
 	}
+	.header .button-list {
+       margin-top: 30.6vw;
+    }
+    
 	.button-apple {
 		
 		margin: 0 4.2vw 0 0;		
@@ -477,20 +473,31 @@ body {
 		height: 5.8vw;
 		margin-right: 2.9vw;
 	} 
-	
+	.title {
+        margin: 176px 0 0;
+    }
 	
 	.main-title, .second-title {
 		font-size: 8.2vw;
 			}
+			
+	.main-title {
+		margin-left: 7.8vw;
+	}		
+			
 	.second-title {
-		display: block;
-		text-align: right;
-		margin: 0;
+		display: block;	
+		margin-left: 20.7vw;
 	}		
 		
 	.section-title {
 		font-size: 10.4vw;
 	}
+	
+	.background-white {
+	background-color: #fff;
+	
+    }
 	
 	.athlets .section-title {
 		padding-left: 40%;
@@ -500,8 +507,8 @@ body {
 	
 
 	.athlet-image {
-		left: -22.1vw;
-		top: 18.2vw;
+		left: -21.1vw;
+		top: 16.2vw;
        
 	}
 	.footballer-image {
@@ -515,8 +522,8 @@ body {
 		
 	.athlet-item {
 		padding-left: 40%;
-		padding-top: 5.2vw;
-		padding-bottom: 4.9vw;
+		padding-top: 3.8vw;
+		padding-bottom: 3.8vw;
 		
 	}
 	
@@ -531,16 +538,16 @@ body {
 	
 	.player-image {
 		right: 0;
-		top: 12.2vw;
+		top: 13.5vw;
 
 	}
 	.basketballer-image {
-		width: 56.8vw;
+		width: 58vw;
 		
 	}
 	
 	.player-item {
-		padding: 5.2vw 44.9vw 4.9vw 4.2vw;
+		padding: 3.8vw 44.9vw 3.8vw 4.2vw;
 	}
 	
 	.players-list {
@@ -549,11 +556,11 @@ body {
 	}
 		
 	.title-number, .title-number_growth {
-		font-size: 2.3vw;
+		font-size: 2.4vw;
 	}
 	
 	.title-number::after, .title-number_growth::after {
-		width: 2.5vw;
+		width: 2.6vw;
 		height: 0.6vw;
 		top: 3.1vw;
 	}
@@ -571,51 +578,92 @@ body {
 	    line-height: 3.6vw;
 	}
 	
-	.content-number {
-		font-size: 3.1vw;
-	}
+	.active-content, .contact-content, .work-content {
+		padding-top: 10.7vw;
+		padding-left: 3vw;
+        padding-bottom: 13.5vw;
+    }
 	
-	.content-number::after {
-		width: 3.2vw;
-		height: 0.6vw;
-		top: 6.9vw;
-	}
+	
+	.be-active_number, .contact_number, .work_number {
+	display: inline-block;
+	position: absolute;
+	font-size: 3.1vw;
+	font-weight: 700;
+	color: #fff;
+	background-color: #5e42b0;
+	padding: 5.7vw;
+	top: 64.6vw;
+	box-sizing: border-box;
+}
+
+.content-number::after {
+  content: "";
+  position: absolute;
+  width: 3.6vw;
+  height: 0.6vw;
+  background-color: #8f7bc8;
+  top: 9.9vw;
+  left: 5.7vw;
+  border-radius: 0.3vw;
+  box-sizing: border-box;
+  
+ }
+
+
 	
 	.content-title {
 		font-size: 10.4vw;
+
 	}
 	.content-text {
 		font-size: 3.1vw;
 		line-height: 3.6vw;
+		padding-top: 4.9vw;
 		
 	}
 	
 	.footer {
 		background-image: url(../images/game_1280.jpg);
+		padding-top: 16.5vw;
+		padding-bottom: 3vw;
 	}
 	
 	.logo-footer {
 		width: 16.9vw;
 		height: 17.8vw;
 		padding: 3.2vw 1.7vw;
+		margin-bottom: 10.7vw;
 		box-sizing: border-box;
+	}
+	
+	.footer_logo-text {
+		margin-top: 7vw;
 	}
 	.footer-title {
 		font-size: 10.4vw;
+		margin: 0;
 	}
 	
 	.footer-text {
 		font-size: 4.7vw;
+		margin-bottom: 37.2vw
 	}
 	
 	
 }
 
 
+
+
 @media (min-width: 961px) {
+	
+
 	
 	.header {
 		background-image: url(../images/football_1920.jpg);
+		padding-bottom: 5.7vw;
+
 	}
 	
 	.logo-header, .footer_logo-text {
@@ -631,7 +679,7 @@ body {
 	
 	.button-apple {
 		
-		margin: 0 32px 0 0;
+		margin: 0 2.6vw 0 0;
 		
 	}
     
@@ -652,30 +700,51 @@ body {
 
     .button-link_google {
 		width: 40px;
-		height: 50px;
+		height: 40px;
 		margin-right: 28px;
+		font-size: 40px;
 	} 
 	
 	.button-text, .button-label_app, .button-label_google {
 		font-size: 14px;
 	}
+	
+	.title {
+		margin: 15.2vw 0 0 0;
+	}
 
 	.main-title, .second-title {
-		font-size: 90px;
+		font-size: 4.7vw;
 	
 	}
 	
 	.second-title  {
 		display: block;
-		margin: 0;
-		text-align: right;
-		width: 100%;
+		margin-left: 22vw;
+
 	}
+	
+	.header .button-list {
+       margin-top: 11.6vw;
+    }
+    
+    .button-label_app, .button-label_google {
+	    padding-top: 0.4vw;
+    }
+    
 	.section-title {
-     	font-size: 80px;;
-     	padding-top: 117px;
+     	font-size: 80px;
+     	padding-top: 6.1vw;
      	padding-left: 13px;
 	}
+	
+	.background-white {
+	background-color: #fff;
+	
+    }
+	
+	
+	
 	
 	.athlets .section-title {
 		padding-left: 50%;
@@ -683,7 +752,7 @@ body {
 	}
 	
 	.players .section-title {
-		padding-left: 5%;
+		padding-left: 10vw;
 	}
 	
 	.athlet-item {
@@ -691,7 +760,16 @@ body {
 
 	}
 
-		 	
+	.athlet-item, .player-item {
+         padding-top: 3.1vw;
+         padding-bottom: 2.8vw;
+         
+    }
+    
+    .player-item {
+		padding-right: 55%;
+		padding-left: 10vw;
+	}	 	
 		
     .athlets-list, .players-list {
 	    padding-top: 29px;
@@ -703,37 +781,37 @@ body {
 	   width: 50%;
 	   text-align: right;
 	   left: 0;
-	   top: 0;
-	   padding: 30px 45px 0 0;
+	   top: 4.1vw;
+	   padding: 0 2.3vw 0 0;
 	   box-sizing: border-box;
 	
 	}
 	.footballer-image {
 		width: 566px;
-/* 		max-width: 100%; */	
+		max-width: 100%;	
 	}
 	
 	.player-image {
 	   width: 70%;
 	   right: 0;   
 	   top:0 ;
-	   padding-top: 52px;
+	   padding-top: 28px;
 	   padding-left: 120px;
 	   box-sizing: border-box;
 		}
 		
 	.basketballer-image {
 		width: 991px;
-/* 		max-width: 100%; */
+		max-width: 100%;
 			}
 	
-	.player-item {
-		padding-right: 55%;
-	}
+	
 	
 	
 	.title-number, .title-number_growth {
 		font-size: 18px;
+		margin-right: 14px;
+		margin-top: 8px;
 	}
 	
 	.title-number::after, .title-number_growth::after {
@@ -748,76 +826,115 @@ body {
 	
 	.item-text, .item-last_text {
 		font-size: 20px;
-		line-height: 28px;	
+		line-height: 28px;
+		margin: 10px 0 0;	
 	}
 	
 	
 	
 	.active-card, .work-card {
 		display: flex;
+		justify-content: space-between;
 	}
 			
 			
-	.active-image, .work-image {
+	.active-image, .work-image, .contact-image {
 		width: 50%;
-		
+		position: relative;
 	}
+	
+	.be-active, .contact, .work-it {
+		width: 100%;
+		display: block;
+	}
+	
 	.active-content, .work-content {
 		width: 50%;
-		padding-bottom: 0;
-	
-	}	
-	
-	.content-number {
-		margin: 0;
-		font-size: 24px;
-		padding: 50px 70px;
-		left: -100px;
-		top: 78px;
-	}
-	
+        box-sizing: border-box;
+        padding: 0 10vw 0 6.8vw;
 			
-	.content-number::after {
-		width: 24px;
-		height: 5px;
-		top: 80px;
-		left: 70px;
-	}		
-	
-	.card:nth-child(even) .content-number {
-        float: right;
-        left: 84px;
-        top: 0;
-        
-    }
-	.contact-image {	
-		width: 50%;
 	}
-		
+	
 	.contact-content {
 		width: 50%;
-		padding-bottom: 0;
-	}
-	.content-title {
-		font-size: 80px;
-		line-height: 90px;
-		padding-left: 127px;
+        box-sizing: border-box;
+        padding: 0 6.8vw 0 10vw;
+	}   
+	
+	
+    .be-active_number {
+	   font-size: 1.2vw;
+	padding: 3.1vw 3.6vw;
+	top: 7.1vw;
+	left: 45.6vw; 
+    }
+    
+    .contact_number {
+	   font-size: 1.2vw;
+	padding: 3.1vw 3.6vw;
+	top: 11vw;
+	left: 45.6vw; 
+    }
+    
+    .work_number {
+	    font-size: 1.2vw;
+	padding: 3.1vw 3.6vw;
+	top: 11.3vw;
+	left: 45.6vw;
+    }
+
+    .content-number::after {
+  width: 1.4vw;
+  height: 0.3vw;
+  top: 4.7vw;
+  left: 3.6vw;
+  border-radius: 0.1vw;
+
+  
+ }
+
+
+
+	.active-content .content-title {
+		font-size: 4.2vw;
+		line-height: 4.7vw;
+        padding-top: 8.5vw;
 		margin: 0;
 	}
+	
+	.contact-content .content-title {
+		font-size: 4.2vw;
+		line-height: 4.7vw;
+        padding-top: 8.5vw;
+		margin: 0;
+	}
+	
+	.work-content .content-title {
+		font-size: 4.2vw;
+		line-height: 4.7vw;
+		margin: 0;
+		padding-top: 12.5vw;
+
+	}
+	
+	
 	.content-text {
-		font-size: 24px;
-		line-height: 28px;
-		padding-left: 127px;
+		font-size: 1.2vw;
+		line-height: 1.4vw;
+		padding-top: 6.2vw;
+
 	}
 	
 	.card:nth-child(even) .content-title {
 		padding-left: 0;
-/* 		padding-right: 130px; */
+		padding-top: 12.5vw;
+
 	}
 	
 	.card:nth-child(even) .content-text {
 		padding-left: 0;
 		padding-right: 130px;
+		padding-top: 4vw;
 	}
 	
 	.contact-card {
@@ -826,20 +943,22 @@ body {
         width: 100%;
 	}
 	
+	.active-content, .contact-content {
+        padding-bottom: 0;
+	    }
 	
-	.athlet-item, .player-item {
-         padding-top: 60px;
-         padding-bottom: 54px;
-    }
+    
 	
 	.footer {
 		background-image: url(../images/game_1920.jpg);
+		padding-top: 11.9vw;
+        padding-bottom: 2.7vw;
 	}
 	
 	.flexbox-footer {
 		display: flex;
 		justify-content: center;
-		align-items: center;
+		
 		
 	}
 	
@@ -848,9 +967,15 @@ body {
 		height: 137px;
 		padding: 25px 13px;
 		box-sizing: border-box;
-		margin-bottom: 90px;
-		margin-right: 40px;
+		margin-bottom: 0;
+		margin-right: 2.1vw;
 			}
+			
+			
+	.footer-top {
+		margin-top: 14px;
+	}
+	
 	
 	.footer-name {
 		display: flex;
@@ -860,14 +985,47 @@ body {
 	
 	.footer-title {
 		font-size: 80px;
+		margin: 0;
 	}
+	
+	.footer_logo-text {
+		margin-top: 13.6vw;
+	}
+	
 	
 	.footer-text {
 		font-size: 30px;
-		margin-bottom: 160px;
+		margin-bottom: 8.4vw;
 	}
+	
 		
 }
+
+@media (min-width: 1141px) and (max-width: 1700px) {
+	
+	.athlet-image {
+	  
+	   top: 1.1vw;
+	   
+	
+	}
+}
+
+@media (min-width: 961px) and (max-width: 1400px) {
+	
+	.player-image {
+		
+		padding-top: 60px;
+		padding-left: 90px;
+	  
+	   
+	}
+	
+	.player-item {
+    padding-right: 38%;
+    }
+}
+
 
 @media (min-width: 1920px) {
 		
