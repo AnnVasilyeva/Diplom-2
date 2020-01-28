@@ -24,7 +24,7 @@ body {
 	background-color: #000;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: top center;
 	position: relative;
 	padding-bottom: 26.2vw;
 	
@@ -711,19 +711,25 @@ body {
 	
 	.title {
 		margin: 15.2vw 0 0 0;
+		position: relative;
+		height: 7.292vw;
 	}
 
 	.main-title, .second-title {
-		font-size: 4.7vw;
+		position: absolute;
+		font-size: 3.906vw;
+		line-height: 3.646vw;
+		letter-spacing: 0.208vw;
 	
 	}
 	
 	.main-title {
-		margin-left: 10vw;
+		left: 9.896vw;
 	}
+	
 	.second-title  {
-		display: block;
-		margin-left: 31.8vw;
+		right: 9.896vw;
+		top: 3.646vw;
 
 	}
 	
@@ -755,7 +761,7 @@ body {
 	}
 	
 	.players .section-title {
-		padding-left: 10vw;
+		padding-left: 9.896vw;
 	}
 	
 	.athlet-item {
@@ -771,7 +777,7 @@ body {
     
     .player-item {
 		padding-right: 55%;
-		padding-left: 10vw;
+		padding-left: 9.896vw;
 	}	 	
 		
     .athlets-list, .players-list {
@@ -1047,12 +1053,140 @@ body {
   max-width: 1920px;
   margin: 0 auto;
   }
+
+
+.title {
+		margin: 292px 0 0 0;
+		position: relative;
+		height: 140px;
+	}
+
+	.main-title, .second-title {
+		font-size: 75px;
+		line-height: 70px;
+		letter-spacing: 4px;
+	
+	}
+	
+	.main-title {
+		left: 190px;
+	}
+	
+	.second-title  {
+		right: 190px;
+		top: 70px;
+
+	}
+	
+	.header .button-list {
+       margin-top: 223px;
+    }
+    
+    .button-label_app, .button-label_google {
+	    padding-top: 8px;
+    }
+
+    .players .section-title {
+		padding-left: 190px;
+	}
+	
+	
+
+	.athlet-item, .player-item {
+         padding-top: 60px;
+         padding-bottom: 53px;
+         
+    }
+    
+    .player-item {
+		padding-left: 190px;
+	}	 	
+		
+   
+    
+    .athlet-image {
+	   top: 78px;
+	   padding: 0 45px 0 0;
+	 
+	}
+		
+			
+	.active-content, .work-content {
+        padding: 0 190px 0 130px;
+			
+	}
+	
+	.contact-content {
+		
+        padding: 0 130px 0 190px;
+	}   
+	
+	
+
+
+	.active-content .content-title {
+		font-size: 80px;
+		line-height: 90px;
+        padding-top: 164px;
+			}
+	
+	.contact-content .content-title {
+		font-size: 80px;
+		line-height: 90px;
+        padding-top: 164px;
+			}
+	
+	.work-content .content-title {
+		font-size: 80px;
+		line-height: 90px;
+		padding-top: 240px;
+
+	}
+	
+	
+	.content-text {
+		
+		padding-top: 120px;
+
+	}
+	
+	.card:nth-child(even) .content-title {
+		
+		padding-top: 240px;
+
+	}
+	
+	.card:nth-child(even) .content-text {
+		
+		padding-top: 77px;
+	}
+	
+		
+	.footer {
+		padding-top: 11.9vw;
+        padding-bottom: 52px;
+	}
+	
+	
+	
+	.logo-footer {
+		
+		margin-right: 40px;
+			}
+			
+			
+		
+	.footer_logo-text {
+		margin-top: 260px;
+	}
+	
+	
+	.footer-text {
+		
+		margin-bottom: 160px;
+	}
+	
 }
-
-
-
-
-
 
 
 
